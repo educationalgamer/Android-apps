@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/im"
+
+
+        android:contentDescription="@string/todo" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/two_best_friends_anshu_and_manvi_together_they_share_their_lives_so_grand_y_with_laughter_love_and_endless_fun_their_bond_will_never_come_undone_they_explore_the_world_hand_in_hand_with_memories_to_keep_and_stories_to_expand_their_friendship_is_a_source_of_light_bringing_joy_to_every_single_sight_anshu_and_manvi_what_a_pair_their_bond_so_strong_beyond_compare_they_are_there_for_each_other_day_and_night_guiding_each_other_towards_what_s_right_so_here_s_to_these_two_best_friends_may_their_bond_continue_until_the_very_end_together_forever_anshu_and_manvi_their_friendship_will_always_shine_brightly"
+            android:textColor="#616161"
+            android:textSize="20sp"
+
+            />
+    </ScrollView>
+    <![CDATA[
+
+
+    />
+
+
+]]>
+</LinearLayout>
